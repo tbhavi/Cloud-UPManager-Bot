@@ -87,7 +87,7 @@ async def answer(bot, query: InlineQuery):
                 thumb_url="https://i.imgur.com/6jZsMYG.png",
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
+                        [InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support"),
                          InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")],
                         [InlineKeyboardButton("Delete GoFile.io File", switch_inline_query_current_chat="!godel ")],
                         [InlineKeyboardButton("Delete Streamtape File (Admin Only)",
@@ -123,8 +123,8 @@ async def answer(bot, query: InlineQuery):
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
-                            [InlineKeyboardButton("Developer", url="https://t.me/linux_repo")]
+                            [InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support")],
+                            [InlineKeyboardButton("Developer", url="https://t.me/ironman_cloud_support")]
                         ]
                     )
                 )
@@ -203,7 +203,7 @@ async def answer(bot, query: InlineQuery):
                                              input_message_content=InputTextMessageContent(
                                                  message_text=f"Something Went Wrong!\n\n**Error:** `{err}`"),
                                              reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Support Group",
-                                                                                                      url="https://t.me/linux_repo")]]))
+                                                                                                      url="https://t.me/ironman_cloud_support")]]))
                 )
 
         try:
@@ -250,7 +250,7 @@ async def answer(bot, query: InlineQuery):
                             title="!godel [file_link] [AdminCode]",
                             description="Put File Link to Delete GoFile.io File!",
                             input_message_content=InputTextMessageContent(
-                                message_text="This for Deleting GoFile.io File via File Link.\n\n**Format:** `@Cloud_UPManager_Bot !godel `__[file_link] [AdminCode]__",
+                                message_text="This for Deleting GoFile.io File via File Link.\n\n**Format:** `@imc_fubot !godel `__[file_link] [AdminCode]__",
                                 parse_mode="Markdown",
                                 disable_web_page_preview=True
                             ),
@@ -296,7 +296,7 @@ async def answer(bot, query: InlineQuery):
                                          input_message_content=InputTextMessageContent(
                                              message_text=f"Something Went Wrong!\n\n**Error:** `{err}`"),
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]))
+                                             [[InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support")]]))
             )
 
         try:
@@ -322,8 +322,8 @@ async def answer(bot, query: InlineQuery):
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
-                            [InlineKeyboardButton("Developer", url="https://t.me/linux_repo")]
+                            [InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support")],
+                            [InlineKeyboardButton("Developer", url="https://t.me/ironman_cloud_support")]
                         ]
                     )
                 )
@@ -419,8 +419,8 @@ async def answer(bot, query: InlineQuery):
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
-                            [InlineKeyboardButton("Developer", url="https://t.me/linux_repo")]
+                            [InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support")],
+                            [InlineKeyboardButton("Developer", url="https://t.me/ironman_cloud_support")]
                         ]
                     )
                 )
@@ -439,7 +439,7 @@ async def answer(bot, query: InlineQuery):
                     title="!strmdel [token]",
                     description="Put Streamtape Remote Token to remove Remote from Streamtape Account!",
                     input_message_content=InputTextMessageContent(
-                        message_text="This for Removing Remote URL from Streamtape Account via Remote Token.\n\n**Format:** `@Cloud_UPManager_Bot !strmdel `__[token]__",
+                        message_text="This for Removing Remote URL from Streamtape Account via Remote Token.\n\n**Format:** `@imc_fubot !strmdel `__[token]__",
                         parse_mode="Markdown",
                         disable_web_page_preview=True
                     ),
@@ -595,7 +595,7 @@ async def answer(bot, query: InlineQuery):
                     title="!show [token]",
                     description="Put Streamtape Remote Access Token to Get Current Status of Streamtape Remote!",
                     input_message_content=InputTextMessageContent(
-                        message_text="This for Getting Current Status of Streamtape Remote via Streamtape Remote Access Token. \n\n**Format:** `@Cloud_UPManager_Bot !show `__[token]__",
+                        message_text="This for Getting Current Status of Streamtape Remote via Streamtape Remote Access Token. \n\n**Format:** `@imc_fubot !show `__[token]__",
                         parse_mode="Markdown",
                         disable_web_page_preview=True
                     ),
