@@ -26,7 +26,7 @@ async def start(bot, cmd):
                                                              InlineKeyboardButton("Support Group",
                                                                                   url="https://t.me/linux_repo")], [
                                                                 InlineKeyboardButton("Bots Channel",
-                                                                                     url="https://t.me/Discovery_Updates")],
+                                                                                     url="https://t.me/ironman_cloud")],
                                                             [InlineKeyboardButton("Bot's Source Code",
                                                                                   url="https://github.com/AbirHasan2005/Cloud-UPManager-Bot")]]))
 
