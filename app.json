@@ -27,6 +27,7 @@
         "STREAMTAPE_API_PASS": {
             "description": "Streamtape API Password. Get this from https://streamtape.com/accpanel#collapseThree"
         },
+        "GOFILE_API"
         "BOT_OWNER": {
             "description": "Bot Owner UserID",
             "required": false
